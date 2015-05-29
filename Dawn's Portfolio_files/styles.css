@@ -1,0 +1,47 @@
+h1,h2,h3,h4,h5,h6 {
+    font-family:'Tangerine',serif;
+    font-size:48px
+}
+
+a {
+    color: #eee;
+}
+
+body {
+    background-image:
+        linear-gradient(
+          rgba(0, 0, 0, 0.3), 
+          rgba(0, 0, 0, 0.3)
+        ),
+        url(union.jpg);
+    background-size:cover;
+    height:100%;
+    width:100%;
+    color: white;
+}
+
+.wrapper {
+    margin:auto;
+    width:500px;
+    /*background-color:#67e843;*/
+    text-align:center;
+    padding-top:3%;
+    padding-bottom:3%
+}
+
+#nav {
+    text-align:center;
+}
+
+ul {
+    padding:0;
+}
+
+#nav li {
+    display:inline;
+    padding:10px;
+}
+
+.headshot {
+    border: ridge 2px #000;
+}
